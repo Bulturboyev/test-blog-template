@@ -1,20 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./scss/main.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Next.js Blog Example with Wordpress</title>
   </head>
 
   <body>
+    <nav>
+      The source code for this blog is
+      <a
+        href="https://github.com/vercel/next.js/tree/canary/examples/cms-wordpress"
+        >available on Github</a
+      >
+    </nav>
     <header>
       <div class="title">
-        <h1>Blog</h1>
+        <h1>Blog.</h1>
         <p>
-          A statically generated blog example using <a href="#">Next.js</a> and
-          <a href="#"> Wordpress</a>
+          A statically generated blog example using
+          <a href="https://nextjs.org">Next.js</a> and
+          <a href="https://wordpress.org"> Wordpress</a>
         </p>
       </div>
+      <img src="./images/main pic.jpg" alt="" />
+
+      <div class="header-txts">
+        <div class="txt1">
+          <h1>
+            <a href="./pages/main2.html">
+              From Server-side Rendering to Static Generation</a
+            >
+          </h1>
+          <p>June 2, 2022</p>
+        </div>
+        <div class="txt2">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae
+            sunt ut. Perspiciatis odit neque vero debitis esse optio mollitia
+            facere? Voluptatem veritatis provident, error, et molestias
+            voluptate ipsam facilis voluptatibus nihil magnam fugit qui adipisci
+            nemo quas doloremque exercitationem natus consequatur enim labore
+            accusantium sunt. Sunt commodi culpa laborum, at laboriosam ipsum,
+            quod similique dignissimos labore placeat facere aliquam.
+          </p>
+
+          <i style="display: inline-block" class="fa-regular fa-user"></i>
+          <h3 style="display: inline-block">UserName LastName</h3>
+        </div>
+      </div>
     </header>
+    <main>
+      <h1>More Stories</h1>
+      <div class="cards">
+        <div class="card1">
+          <picture>
+            <caption>
+              <a href="./pages/more2.html">
+                <img width="100%" src="./images/post-1.webp" alt="" />
+                <figcaption>
+                  <p style="font-size: 25px">
+                    Learn How to Pre-render Using Static Generation with Next.js
+                  </p>
+                  <p>June 2, 2022</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
+                    voluptatibus adipisci nesciunt in reprehenderit, voluptatem
+                    omnis nulla quos alias rerum exercitationem earum cumque
+                    corrupti consequatur. Pariatur fuga, dolor sed, optio porro
+                    officia iusto culpa dolorum laborum accusamus molestiae non
+                    cum, nam maxime possimus vitae rerum.
+                  </p>
+                  <i
+                    style="display: inline-block"
+                    class="fa-regular fa-user"
+                  ></i>
+                  <h3 style="display: inline-block">UserName LastName</h3>
+                </figcaption>
+              </a>
+            </caption>
+          </picture>
+        </div>
+        <div class="card2">
+          <picture>
+            <caption>
+              <a href="./pages/more2.html">
+                <img width="100%" src="./images/post-1.webp" alt="" />
+                <figcaption>
+                  <p style="font-size: 25px">
+                    Learn How to Pre-render Using Static Generation with Next.js
+                  </p>
+                  <p>June 2, 2022</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
+                    voluptatibus adipisci nesciunt in reprehenderit, voluptatem
+                    omnis nulla quos alias rerum exercitationem earum cumque
+                    corrupti consequatur. Pariatur fuga, dolor sed, optio porro
+                    officia iusto culpa dolorum laborum accusamus molestiae non
+                    cum, nam maxime possimus vitae rerum.
+                  </p>
+                  <i
+                    style="display: inline-block"
+                    class="fa-regular fa-user"
+                  ></i>
+                  <h3 style="display: inline-block">UserName LastName</h3>
+                </figcaption>
+              </a>
+            </caption>
+          </picture>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h1>Statically Generated with Next.js</h1>
+      <div class="txts">
+        <button>
+          <a href="https://nextjs.org/docs">Read Documentation</a>
+        </button>
+        <h4><a href="https://github.com">View on Github</a></h4>
+      </div>
+    </footer>
   </body>
 </html>

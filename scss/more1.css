@@ -1,3 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+nav {
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(245, 245, 220, 0.491);
+}
+nav a {
+  color: inherit;
+}
 
-/*# sourceMappingURL=more1.css.map */
+header,
+main {
+  padding: 50px 130px;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+header .txts {
+  margin: 10px 300px;
+}
+
+main h1 {
+  font-size: 60px;
+  margin-top: 80px;
+  margin-bottom: 45px;
+}
+main .cards {
+  display: flex;
+  justify-content: space-between;
+}
+main .card1,
+main .card2 {
+  width: 45%;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+main p {
+  padding-top: 8px;
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(245, 245, 220, 0.491);
+  padding: 80px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .txts {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .txts button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+}
+footer .txts button a {
+  text-decoration: none;
+}
+footer .txts button:hover {
+  background-color: white;
+  color: black;
+}
+footer .txts a {
+  color: inherit;
+} /*# sourceMappingURL=more1.css.map */
